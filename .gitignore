@@ -1,0 +1,23 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# JavaScript tooling artifacts
+node_modules/
+dist/
+build/
