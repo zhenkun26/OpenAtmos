@@ -53,6 +53,10 @@
 | [UCAR：Layers of Earth’s Atmosphere](https://scied.ucar.edu/learning-zone/atmosphere/layers-earths-atmosphere) | 核对对流层、平流层等层次的入门特征 | 高度范围保留“约”和纬度/季节差异 |
 | [UCAR：Change in the Atmosphere with Altitude](https://scied.ucar.edu/learning-zone/atmosphere/change-atmosphere-altitude) | 解释气压、密度和温度随高度的变化 | 用于概念校验，不把示意剖面当作实测数据 |
 | [UCAR：Exploring the Atmosphere with Weather Balloons](https://scied.ucar.edu/learning-zone/atmosphere/weather-balloons) | 将垂直结构连接到探空观测和气球膨胀现象 | 作为第二课的现象入口 |
+| [UCAR：How We Study the Atmosphere](https://scied.ucar.edu/learning-zone/atmosphere/how-we-study) | 连接地面观测、原位观测、卫星和模式资料 | 用于第三课的平台比较，不把不同资料混为观测 |
+| [WMO-No. 8：Guide to Instruments and Methods of Observation](https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/instruments-and-methods-of-observation-programme-imop/guide-instruments-and-methods-of-observation-wmo-no-8) | 核对温度、气压、湿度、地面风、降水和观测系统的规范主题 | 作为专业延伸入口，不在基础课中展开全部技术细节 |
+| [NOAA：Weather observations](https://prod-01-alb-www-noaa.woc.noaa.gov/office-education/outreach-communication/science-olympiad/2026-meteorology) | 为初学者说明温度、湿度、降水、气压和风是常用观测变量 | 教学页面，正式数据仍需回到具体站点和数据文档 |
+| [NWS：Upper Air Observations](https://www.weather.gov/chs/upperair) | 说明探空可获取温度、风、相对湿度和气压的垂直资料 | 只作为平台理解入口，不替代探空数据说明 |
 | [ECMWF training](https://github.com/stewartchrisecmwf/training) | 进入气候、再分析资料和 Jupyter Notebook 实践 | 先从课程导航进入，不默认读者已有数据基础 |
 | [MetPy](https://github.com/Unidata/MetPy) | 后续用 Python 读取、计算和可视化气象变量 | 它是工具库，不是从零开始的气象学教材；以仓库当前许可证为准 |
 | [NMC-WFT/nmcdev](https://github.com/nmcdev) | 了解中国气象业务中的资料、绘图、雷达和检验工具 | 先说明数据和业务背景，再决定是否引入具体模块 |

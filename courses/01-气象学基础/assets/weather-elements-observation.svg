@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 650" role="img" aria-labelledby="title desc">
+  <title id="title">从天气感觉到气象观测记录的转换示意图</title>
+  <desc id="desc">图从左到右连接天气感觉、气象要素和观测来源。闷热对应温度与湿度，起风对应风速与风向，下雨对应降水量和降水类型；地面站、探空、雷达和卫星分别提供不同空间高度和变量范围的资料。完整记录还需要时间、地点、数值单位和资料来源。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#315a72"/>
+    </marker>
+    <style>
+      .box { stroke: #24445b; stroke-width: 2.5; rx: 16; }
+      .head { font: 700 27px sans-serif; fill: #17324d; }
+      .label { font: 700 22px sans-serif; fill: #17324d; }
+      .body { font: 20px sans-serif; fill: #243746; }
+      .small { font: 17px sans-serif; fill: #526b7a; }
+      .arrow { stroke: #315a72; stroke-width: 3.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1160" height="650" fill="#f7fbfd"/>
+  <text x="580" y="44" text-anchor="middle" class="head">把“感觉”变成可以比较的观测记录</text>
+
+  <rect x="55" y="100" width="265" height="250" fill="#fff0d8" class="box"/>
+  <text x="187" y="140" text-anchor="middle" class="label">天气感觉</text>
+  <text x="90" y="190" class="body">闷热</text>
+  <text x="90" y="230" class="body">起风</text>
+  <text x="90" y="270" class="body">下雨</text>
+  <text x="90" y="325" class="small">感觉是入口，不是完整资料</text>
+
+  <rect x="445" y="80" width="270" height="290" fill="#dceef7" class="box"/>
+  <text x="580" y="120" text-anchor="middle" class="label">气象要素</text>
+  <text x="480" y="165" class="body">温度（°C）</text>
+  <text x="480" y="207" class="body">湿度（如 %）</text>
+  <text x="480" y="249" class="body">风速、风向</text>
+  <text x="480" y="291" class="body">降水量、类型</text>
+  <text x="480" y="333" class="body">气压（hPa）</text>
+
+  <rect x="840" y="100" width="265" height="250" fill="#e7f1e8" class="box"/>
+  <text x="972" y="140" text-anchor="middle" class="label">观测来源</text>
+  <text x="875" y="185" class="body">地面自动站</text>
+  <text x="875" y="227" class="body">探空 / 气象气球</text>
+  <text x="875" y="269" class="body">雷达 / 卫星</text>
+  <text x="875" y="325" class="small">平台不同，能看到的范围不同</text>
+
+  <path d="M 320 225 L 435 225" class="arrow"/>
+  <path d="M 715 225 L 830 225" class="arrow"/>
+
+  <rect x="105" y="450" width="950" height="110" fill="#eee6f7" class="box"/>
+  <text x="580" y="490" text-anchor="middle" class="label">一条可复核的记录</text>
+  <text x="580" y="530" text-anchor="middle" class="body">时间 + 地点 + 要素 + 数值与单位 + 观测来源 + 备注</text>
+  <path d="M 580 370 L 580 440" class="arrow"/>
+  <text x="580" y="605" text-anchor="middle" class="small">教学示意图：不表示具体仪器外形、精度或业务站点布局。</text>
+</svg>
