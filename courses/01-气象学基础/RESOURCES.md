@@ -65,6 +65,9 @@
 | [WMO：Falling particles and precipitation](https://cloudatlas.wmo.int/hydrometeors-falling-particles.html) | 区分云中悬浮粒子、下落粒子、降水和雨幡等现象 | 用于第五课的“云不等于地面降水”边界 |
 | [UCAR：Making Raindrops](https://scied.ucar.edu/kids/clouds-raindrops/making-raindrops) | 用初学者语言解释凝结核、小水滴增长和雨滴形成 | 采用过程线索，不复用页面插图 |
 | [NWS：Basic Weather Education](https://www.weather.gov/jkl/education) | 回顾蒸发、上升冷却、饱和、凝结、云和降水的基础过程链 | 作为入门复习入口，具体观测仍需回到站点和仪器资料 |
+| [WMO：Global Observing System](https://public.wmo.int/activities/global-observing-system-gos/global-observing-system-gos) | 了解观测网络如何根据应用需求考虑质量、空间分辨率、时间分辨率和长期稳定性 | 用于第六课的观测窗口和资料匹配，不把网络说明当作单一产品规格 |
+| [WMO-No. 8：Guide to Instruments and Methods of Observation](https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/instruments-and-methods-observation-programme-imop/guide-instruments-and-methods-observation-wmo-no-8) | 延伸阅读观测代表性、采样间隔、站点密度和不同应用的尺度需求 | 专业指南，基础课只取“资料要与问题尺度匹配”的原则 |
+| [UCAR：Spatial and Temporal Scales in the Tropics](https://www.meted.ucar.edu/tropical/textbook_2nd_edition/navmenu.php?page=8.1.0&tab=2) | 说明大气运动同时存在于不同时间和空间尺度，小尺度过程可以嵌套在大尺度环流中 | 采用尺度关系和典型例子，不复制原教材图件 |
 | [ECMWF training](https://github.com/stewartchrisecmwf/training) | 进入气候、再分析资料和 Jupyter Notebook 实践 | 先从课程导航进入，不默认读者已有数据基础 |
 | [MetPy](https://github.com/Unidata/MetPy) | 后续用 Python 读取、计算和可视化气象变量 | 它是工具库，不是从零开始的气象学教材；以仓库当前许可证为准 |
 | [NMC-WFT/nmcdev](https://github.com/nmcdev) | 了解中国气象业务中的资料、绘图、雷达和检验工具 | 先说明数据和业务背景，再决定是否引入具体模块 |

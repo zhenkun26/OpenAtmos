@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">天气现象的时间尺度与空间尺度示意图</title>
+  <desc id="desc">示意图用三个嵌套的横向层次表示局地或小尺度、中尺度和天气或大尺度现象。局地阵风和校园附近阵雨通常持续分钟到小时、影响米到几千米；雷暴和海陆风通常持续小时到一天、影响几到几百千米；锋面、气旋和高低压系统通常持续数天到一周、影响数百到数千千米。三个层次只是典型范围，彼此可以重叠，小尺度过程可以嵌套在大尺度系统中。图为教学示意，不按比例绘制。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f7ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3567a8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#background)"/>
+  <g font-family="Arial, 'Noto Sans CJK SC', sans-serif">
+    <text x="60" y="66" font-size="32" font-weight="700" fill="#142b49">同一场天气，可能同时存在多个尺度</text>
+    <text x="60" y="105" font-size="18" fill="#52677f">先问两个问题：变化持续多久？影响范围多大？</text>
+
+    <rect x="60" y="145" width="1080" height="88" rx="16" fill="#ffffff" stroke="#6c8db6" stroke-width="2"/>
+    <text x="92" y="181" font-size="20" font-weight="700" fill="#244a78">尺度不是标签游戏</text>
+    <text x="92" y="212" font-size="17" fill="#475569">它帮助我们决定观察窗口、资料密度和图上应该保留哪些细节。</text>
+    <path d="M820 190 H1060" stroke="#3567a8" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="820" y="172" font-size="15" fill="#3567a8">范围变大 →</text>
+
+    <rect x="60" y="270" width="1080" height="125" rx="18" fill="#e8f4ff" stroke="#5e9bd1" stroke-width="3"/>
+    <rect x="82" y="292" width="210" height="81" rx="12" fill="#d0e9fb"/>
+    <text x="105" y="326" font-size="21" font-weight="700" fill="#14527c">局地 / 小尺度</text>
+    <text x="105" y="354" font-size="16" fill="#275675">阵风、校园阵雨</text>
+    <text x="330" y="319" font-size="19" font-weight="700" fill="#26415f">典型空间：米到几千米</text>
+    <text x="330" y="351" font-size="19" font-weight="700" fill="#26415f">典型时间：几分钟到几小时</text>
+    <text x="810" y="319" font-size="17" fill="#475569">站点、雨量计、</text>
+    <text x="810" y="348" font-size="17" fill="#475569">高频局地观测</text>
+
+    <rect x="60" y="420" width="1080" height="125" rx="18" fill="#eef8ed" stroke="#76a86d" stroke-width="3"/>
+    <rect x="82" y="442" width="210" height="81" rx="12" fill="#d9efd4"/>
+    <text x="105" y="476" font-size="21" font-weight="700" fill="#2e6636">中尺度</text>
+    <text x="105" y="504" font-size="16" fill="#3f7045">雷暴、海陆风</text>
+    <text x="330" y="469" font-size="19" font-weight="700" fill="#355b39">典型空间：几到几百千米</text>
+    <text x="330" y="501" font-size="19" font-weight="700" fill="#355b39">典型时间：几小时到一天</text>
+    <text x="810" y="469" font-size="17" fill="#475569">雷达、卫星、</text>
+    <text x="810" y="498" font-size="17" fill="#475569">多站点联合观测</text>
+
+    <rect x="60" y="570" width="1080" height="125" rx="18" fill="#fff4df" stroke="#d5a15a" stroke-width="3"/>
+    <rect x="82" y="592" width="210" height="81" rx="12" fill="#ffe5bd"/>
+    <text x="105" y="626" font-size="21" font-weight="700" fill="#8a571a">天气 / 大尺度</text>
+    <text x="105" y="654" font-size="16" fill="#8a632b">锋面、气旋、高低压</text>
+    <text x="330" y="619" font-size="19" font-weight="700" fill="#705123">典型空间：数百到数千千米</text>
+    <text x="330" y="651" font-size="19" font-weight="700" fill="#705123">典型时间：数天到一周</text>
+    <text x="810" y="619" font-size="17" fill="#475569">天气图、探空、</text>
+    <text x="810" y="648" font-size="17" fill="#475569">大范围资料与预报</text>
+
+    <path d="M1020 270 V695" stroke="#3567a8" stroke-width="2" stroke-dasharray="7 7"/>
+    <text x="1040" y="742" font-size="17" fill="#3567a8">更大的范围</text>
+    <path d="M960 720 H1125" stroke="#3567a8" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="60" y="755" width="1080" height="90" rx="16" fill="#ffffff" stroke="#8092a8" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="90" y="793" font-size="19" font-weight="700" fill="#334155">重要边界</text>
+    <text x="90" y="824" font-size="17" fill="#475569">这些是典型范围，不是硬边界；雷暴可以嵌套在更大的低压系统中，小尺度变化也可能被大尺度背景调节。</text>
+  </g>
+</svg>
