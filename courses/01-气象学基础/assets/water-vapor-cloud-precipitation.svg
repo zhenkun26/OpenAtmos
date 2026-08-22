@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">从水汽到云和降水的过程示意图</title>
+  <desc id="desc">地表水和植物通过蒸发、蒸腾进入空气成为水汽；空气上升并冷却至饱和后，水汽在凝结核上凝结或在冰相过程中凝华，形成悬浮的云滴或冰晶；粒子继续增长后可能形成降水，也可能在到达地面前蒸发。图为教学示意，不按比例绘制。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d8e8f7"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+    <marker id="soft-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <rect x="0" y="620" width="1200" height="140" fill="#d8ead2"/>
+  <path d="M0 620 C180 575 320 650 500 610 S850 580 1200 625 L1200 760 L0 760 Z" fill="#a8cf9e"/>
+  <text x="60" y="70" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="32" font-weight="700" fill="#0f2742">从水汽到云和降水</text>
+  <text x="60" y="108" font-family="Arial, 'Noto Sans CJK SC', sans-serif" font-size="18" fill="#40566e">一个把“看不见的水”连接到“看得见的天气现象”的入门过程链</text>
+
+  <g font-family="Arial, 'Noto Sans CJK SC', sans-serif">
+    <rect x="45" y="220" width="205" height="210" rx="18" fill="#fff7d6" stroke="#d6a72c" stroke-width="3"/>
+    <text x="70" y="260" font-size="23" font-weight="700" fill="#6e4b00">水的来源</text>
+    <path d="M75 365 C80 325 145 325 150 365 C145 400 80 400 75 365 Z" fill="#63a9df"/>
+    <path d="M175 365 C180 325 220 325 225 365 C220 400 180 400 175 365 Z" fill="#78b96b"/>
+    <text x="70" y="420" font-size="18" fill="#334155">地表水、土壤、植物</text>
+
+    <path d="M255 325 H302" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="258" y="300" font-size="16" fill="#1d4ed8">蒸发 / 蒸腾</text>
+
+    <rect x="310" y="220" width="205" height="210" rx="18" fill="#e0f2fe" stroke="#4b9ed0" stroke-width="3"/>
+    <text x="335" y="260" font-size="23" font-weight="700" fill="#155e75">水汽</text>
+    <text x="335" y="305" font-size="18" fill="#334155">气态的水</text>
+    <text x="335" y="342" font-size="17" fill="#475569">通常不可直接看见</text>
+    <path d="M360 380 C335 355 385 330 410 360 C435 325 490 355 465 385 C445 410 380 408 360 380 Z" fill="#b8e0f5" stroke="#4b9ed0" stroke-width="2"/>
+    <text x="337" y="420" font-size="16" fill="#334155">随空气输送</text>
+
+    <path d="M520 325 H567" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="514" y="282" font-size="16" fill="#1d4ed8">上升、膨胀、冷却</text>
+    <text x="530" y="300" font-size="14" fill="#475569">达到饱和</text>
+
+    <rect x="575" y="220" width="230" height="210" rx="18" fill="#f1f5f9" stroke="#7890a8" stroke-width="3"/>
+    <text x="600" y="260" font-size="23" font-weight="700" fill="#334155">云的形成</text>
+    <text x="600" y="305" font-size="17" fill="#475569">水汽在凝结核上凝结</text>
+    <text x="600" y="334" font-size="17" fill="#475569">或在冰相过程中凝华</text>
+    <circle cx="640" cy="380" r="13" fill="#c8e6f9" stroke="#5b9ac7" stroke-width="2"/>
+    <circle cx="685" cy="365" r="10" fill="#d7eefc" stroke="#5b9ac7" stroke-width="2"/>
+    <path d="M722 385 C700 360 745 335 775 365 C797 340 830 370 805 395 C780 420 740 415 722 385 Z" fill="url(#cloud)" stroke="#7890a8" stroke-width="2"/>
+    <text x="600" y="420" font-size="16" fill="#334155">小水滴 / 冰晶悬浮</text>
+
+    <path d="M810 325 H857" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="814" y="282" font-size="16" fill="#1d4ed8">碰并、凝华等</text>
+    <text x="814" y="300" font-size="14" fill="#475569">粒子继续增长</text>
+
+    <rect x="865" y="220" width="290" height="210" rx="18" fill="#eaf7ec" stroke="#5f9b69" stroke-width="3"/>
+    <text x="890" y="260" font-size="23" font-weight="700" fill="#276337">降水的可能</text>
+    <text x="890" y="305" font-size="17" fill="#334155">粒子足够大、重力占优势</text>
+    <path d="M925 345 l-8 30 h16 z M975 345 l-8 30 h16 z M1025 345 l-8 30 h16 z" fill="#4b9ed0"/>
+    <text x="890" y="410" font-size="17" fill="#334155">雨、雪、冰雹等</text>
+
+    <rect x="365" y="505" width="470" height="90" rx="16" fill="#fff" stroke="#64748b" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="395" y="542" font-size="19" font-weight="700" fill="#334155">重要边界</text>
+    <text x="395" y="574" font-size="17" fill="#475569">有云不一定有地面降水；降水粒子也可能途中蒸发，形成雨幡。</text>
+    <path d="M1010 435 C1000 490 980 515 960 555" stroke="#64748b" stroke-width="3" stroke-dasharray="8 7" fill="none" marker-end="url(#soft-arrow)"/>
+    <text x="1010" y="500" font-size="16" fill="#475569">可能在到达地面前</text>
+    <text x="1010" y="525" font-size="16" fill="#475569">蒸发</text>
+
+    <text x="60" y="690" font-size="18" fill="#40566e">教学示意：箭头表示常见过程顺序，不代表每一朵云都会发展成降水。</text>
+  </g>
+</svg>

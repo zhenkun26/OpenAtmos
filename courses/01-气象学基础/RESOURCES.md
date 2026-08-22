@@ -60,6 +60,11 @@
 | [NOAA JetStream：Origin of Wind](https://prod-01-alb-www-noaa.woc.noaa.gov/jetstream/synoptic/origin-of-wind) | 解释等压线、压力梯度和风速的入门联系 | 将“线密风强”作为线索，不当作精确预报公式 |
 | [NWS：Pressure Gradient Force](https://www.weather.gov/jkl/education) | 补充压力梯度力、地转偏向和近地面风的关系 | 课程只取入门层面的力和限制条件 |
 | [Met Office：Wind Flow](https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/high-and-low-pressure/wind-flow) | 用气球类比说明压力差，并解释真实风受地转偏向影响 | 作为概念延伸阅读，不复制页面图片 |
+| [WMO：International Cloud Atlas](https://cloudatlas.wmo.int/en/home.html) | 核对云、降水和其他水成物的术语、分类与专业定义 | 作为权威查词入口，OpenAtmos 自己组织中文解释，不复制图件 |
+| [WMO：Clouds](https://cloudatlas.wmo.int/en/clouds.html) | 核对云由悬浮的微小液态水粒子和/或冰粒子组成的入门定义 | 用于第五课概念边界，不延伸到完整云微物理 |
+| [WMO：Falling particles and precipitation](https://cloudatlas.wmo.int/hydrometeors-falling-particles.html) | 区分云中悬浮粒子、下落粒子、降水和雨幡等现象 | 用于第五课的“云不等于地面降水”边界 |
+| [UCAR：Making Raindrops](https://scied.ucar.edu/kids/clouds-raindrops/making-raindrops) | 用初学者语言解释凝结核、小水滴增长和雨滴形成 | 采用过程线索，不复用页面插图 |
+| [NWS：Basic Weather Education](https://www.weather.gov/jkl/education) | 回顾蒸发、上升冷却、饱和、凝结、云和降水的基础过程链 | 作为入门复习入口，具体观测仍需回到站点和仪器资料 |
 | [ECMWF training](https://github.com/stewartchrisecmwf/training) | 进入气候、再分析资料和 Jupyter Notebook 实践 | 先从课程导航进入，不默认读者已有数据基础 |
 | [MetPy](https://github.com/Unidata/MetPy) | 后续用 Python 读取、计算和可视化气象变量 | 它是工具库，不是从零开始的气象学教材；以仓库当前许可证为准 |
 | [NMC-WFT/nmcdev](https://github.com/nmcdev) | 了解中国气象业务中的资料、绘图、雷达和检验工具 | 先说明数据和业务背景，再决定是否引入具体模块 |
