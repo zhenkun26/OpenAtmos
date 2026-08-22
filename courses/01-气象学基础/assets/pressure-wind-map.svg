@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" role="img" aria-labelledby="title desc">
+  <title id="title">气压场、等压线与风的关系示意图</title>
+  <desc id="desc">左侧示意高压中心和低压中心，曲线为等压线，压力梯度力的入门方向从高压指向低压。右侧说明等压线越密，单位距离内气压变化通常越快，压力梯度通常越强；真实近地面风还会受到地球自转和摩擦影响。底部给出温度差、密度差、气压场和风之间的概念链。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#315a72"/>
+    </marker>
+    <style>
+      .frame { stroke: #24445b; stroke-width: 2.5; rx: 16; }
+      .isobar { fill: none; stroke: #55798b; stroke-width: 2.5; }
+      .gradient { fill: none; stroke: #c14b3c; stroke-width: 4; stroke-dasharray: 10 8; marker-end: url(#arrow); }
+      .head { font: 700 28px sans-serif; fill: #17324d; }
+      .label { font: 700 23px sans-serif; fill: #17324d; }
+      .body { font: 20px sans-serif; fill: #243746; }
+      .small { font: 17px sans-serif; fill: #526b7a; }
+      .center-high { font: 700 38px sans-serif; fill: #b35645; }
+      .center-low { font: 700 38px sans-serif; fill: #496b9a; }
+    </style>
+  </defs>
+
+  <rect width="1180" height="700" fill="#f7fbfd"/>
+  <text x="590" y="43" text-anchor="middle" class="head">先看气压场，再问风怎样响应</text>
+
+  <rect x="50" y="85" width="690" height="415" fill="#ffffff" class="frame"/>
+  <text x="395" y="120" text-anchor="middle" class="label">等压线示意：数值相同的点连成线</text>
+
+  <ellipse cx="225" cy="300" rx="155" ry="145" class="isobar"/>
+  <ellipse cx="225" cy="300" rx="105" ry="96" class="isobar"/>
+  <ellipse cx="225" cy="300" rx="55" ry="49" class="isobar"/>
+  <text x="225" y="310" text-anchor="middle" class="center-high">H</text>
+  <text x="225" y="350" text-anchor="middle" class="small">高压中心</text>
+  <text x="93" y="210" class="small">1016</text>
+  <text x="135" y="238" class="small">1020</text>
+  <text x="184" y="278" class="small">1024</text>
+
+  <ellipse cx="570" cy="300" rx="155" ry="145" class="isobar"/>
+  <ellipse cx="570" cy="300" rx="105" ry="96" class="isobar"/>
+  <ellipse cx="570" cy="300" rx="55" ry="49" class="isobar"/>
+  <text x="570" y="310" text-anchor="middle" class="center-low">L</text>
+  <text x="570" y="350" text-anchor="middle" class="small">低压中心</text>
+  <text x="700" y="210" class="small">1004</text>
+  <text x="650" y="238" class="small">1000</text>
+  <text x="605" y="278" class="small">996</text>
+
+  <path d="M 335 220 C 405 220, 435 220, 505 220" class="gradient"/>
+  <path d="M 335 300 C 405 300, 435 300, 505 300" class="gradient"/>
+  <path d="M 335 380 C 405 380, 435 380, 505 380" class="gradient"/>
+  <text x="420" y="455" text-anchor="middle" class="small">压力梯度力：高压 → 低压（入门模型）</text>
+
+  <rect x="785" y="85" width="345" height="415" fill="#e7f1e8" class="frame"/>
+  <text x="957" y="125" text-anchor="middle" class="label">读图提示</text>
+  <text x="820" y="175" class="body">1. 先找 H 和 L</text>
+  <text x="820" y="225" class="body">2. 看等压线数值变化</text>
+  <text x="820" y="275" class="body">3. 看单位距离的变化</text>
+  <text x="820" y="325" class="body">4. 线越密，梯度通常越强</text>
+  <text x="820" y="385" class="body">5. 实际风还受地转偏向</text>
+  <text x="820" y="425" class="body">   和地面摩擦影响</text>
+  <text x="957" y="470" text-anchor="middle" class="small">本图不是实况天气图</text>
+
+  <rect x="115" y="550" width="950" height="90" fill="#eee6f7" class="frame"/>
+  <text x="590" y="588" text-anchor="middle" class="label">温度差 → 密度/气柱差异 → 压力场差异 → 风的响应</text>
+  <text x="590" y="618" text-anchor="middle" class="small">概念链，不等同于完整的热力学或动力学方程。</text>
+</svg>

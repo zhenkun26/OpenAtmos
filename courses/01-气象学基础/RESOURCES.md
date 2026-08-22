@@ -57,6 +57,9 @@
 | [WMO-No. 8：Guide to Instruments and Methods of Observation](https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/instruments-and-methods-of-observation-programme-imop/guide-instruments-and-methods-of-observation-wmo-no-8) | 核对温度、气压、湿度、地面风、降水和观测系统的规范主题 | 作为专业延伸入口，不在基础课中展开全部技术细节 |
 | [NOAA：Weather observations](https://prod-01-alb-www-noaa.woc.noaa.gov/office-education/outreach-communication/science-olympiad/2026-meteorology) | 为初学者说明温度、湿度、降水、气压和风是常用观测变量 | 教学页面，正式数据仍需回到具体站点和数据文档 |
 | [NWS：Upper Air Observations](https://www.weather.gov/chs/upperair) | 说明探空可获取温度、风、相对湿度和气压的垂直资料 | 只作为平台理解入口，不替代探空数据说明 |
+| [NOAA JetStream：Origin of Wind](https://prod-01-alb-www-noaa.woc.noaa.gov/jetstream/synoptic/origin-of-wind) | 解释等压线、压力梯度和风速的入门联系 | 将“线密风强”作为线索，不当作精确预报公式 |
+| [NWS：Pressure Gradient Force](https://www.weather.gov/jkl/education) | 补充压力梯度力、地转偏向和近地面风的关系 | 课程只取入门层面的力和限制条件 |
+| [Met Office：Wind Flow](https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/high-and-low-pressure/wind-flow) | 用气球类比说明压力差，并解释真实风受地转偏向影响 | 作为概念延伸阅读，不复制页面图片 |
 | [ECMWF training](https://github.com/stewartchrisecmwf/training) | 进入气候、再分析资料和 Jupyter Notebook 实践 | 先从课程导航进入，不默认读者已有数据基础 |
 | [MetPy](https://github.com/Unidata/MetPy) | 后续用 Python 读取、计算和可视化气象变量 | 它是工具库，不是从零开始的气象学教材；以仓库当前许可证为准 |
 | [NMC-WFT/nmcdev](https://github.com/nmcdev) | 了解中国气象业务中的资料、绘图、雷达和检验工具 | 先说明数据和业务背景，再决定是否引入具体模块 |
