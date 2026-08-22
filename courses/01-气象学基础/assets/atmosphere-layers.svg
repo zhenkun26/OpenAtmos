@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+  <title id="title">大气组成与垂直结构示意图</title>
+  <desc id="desc">图从地面向上示意对流层、平流层、中间层和热层。气压与空气密度总体随高度降低；温度随高度的变化趋势在不同层次并不相同。天气、云和绝大多数水汽集中在对流层，臭氧层主要位于平流层。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#315a72"/>
+    </marker>
+    <style>
+      .axis { stroke: #315a72; stroke-width: 3; }
+      .trend { stroke: #c14b3c; stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .layer { stroke: #24445b; stroke-width: 2; }
+      .layer-title { font: 700 25px sans-serif; fill: #17324d; }
+      .layer-note { font: 19px sans-serif; fill: #243746; }
+      .axis-label { font: 20px sans-serif; fill: #315a72; }
+      .callout { font: 20px sans-serif; fill: #243746; }
+      .small { font: 17px sans-serif; fill: #526b7a; }
+    </style>
+  </defs>
+
+  <rect width="1120" height="680" fill="#f7fbfd"/>
+  <text x="560" y="42" text-anchor="middle" class="layer-title">大气的垂直结构：越高，空气通常越稀薄</text>
+
+  <line x1="100" y1="590" x2="100" y2="90" class="axis" marker-end="url(#arrow)"/>
+  <text x="62" y="350" transform="rotate(-90 62 350)" text-anchor="middle" class="axis-label">高度（示意）</text>
+  <text x="100" y="625" text-anchor="middle" class="axis-label">地面</text>
+  <text x="100" y="85" text-anchor="middle" class="axis-label">更高处</text>
+
+  <rect x="150" y="500" width="460" height="90" fill="#dceef7" class="layer"/>
+  <rect x="150" y="310" width="460" height="190" fill="#e7f1e8" class="layer"/>
+  <rect x="150" y="175" width="460" height="135" fill="#eee6f7" class="layer"/>
+  <rect x="150" y="90" width="460" height="85" fill="#fff0d8" class="layer"/>
+
+  <text x="380" y="540" text-anchor="middle" class="layer-title">对流层（约 0–8/16 km）</text>
+  <text x="380" y="568" text-anchor="middle" class="layer-note">天气、云和绝大多数水汽</text>
+  <text x="380" y="385" text-anchor="middle" class="layer-title">平流层（约 8/16–50 km）</text>
+  <text x="380" y="414" text-anchor="middle" class="layer-note">臭氧吸收紫外线，温度趋势转为上升</text>
+  <text x="380" y="245" text-anchor="middle" class="layer-title">中间层（约 50–85 km）</text>
+  <text x="380" y="273" text-anchor="middle" class="layer-note">空气更稀薄，温度趋势再次下降</text>
+  <text x="380" y="125" text-anchor="middle" class="layer-title">热层（约 85 km 以上）</text>
+
+  <polyline points="680,530 620,500 690,310 625,175 760,90" class="trend"/>
+  <text x="790" y="112" class="callout">温度变化趋势</text>
+  <text x="790" y="140" class="small">示意线，不代表某次实测剖面</text>
+  <text x="645" y="565" class="small">较低</text>
+  <text x="735" y="205" class="small">较高</text>
+
+  <line x1="610" y1="545" x2="900" y2="545" class="axis" marker-end="url(#arrow)"/>
+  <text x="760" y="585" text-anchor="middle" class="axis-label">总体上：气压、密度随高度降低</text>
+
+  <rect x="825" y="330" width="250" height="118" fill="#ffffff" stroke="#a5b9c5" stroke-width="2" rx="14"/>
+  <text x="950" y="360" text-anchor="middle" class="callout">为什么先学这里？</text>
+  <text x="950" y="392" text-anchor="middle" class="small">地面观测、探空和天气现象</text>
+  <text x="950" y="418" text-anchor="middle" class="small">主要连接到对流层</text>
+  <line x1="825" y1="390" x2="610" y2="535" class="axis" marker-end="url(#arrow)"/>
+
+  <text x="560" y="655" text-anchor="middle" class="small">层次边界会随纬度、季节和定义变化；本图用于建立入门关系，不用于精确读数。</text>
+</svg>

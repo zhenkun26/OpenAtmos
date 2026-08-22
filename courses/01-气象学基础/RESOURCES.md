@@ -48,6 +48,11 @@
 | --- | --- | --- |
 | [NOAA NCEI：Weather vs. Climate](https://www.ncei.noaa.gov/news/weather-vs-climate) | 为第一课的天气/气候区分提供官方入门解释 | OpenAtmos 自己组织中文脉络，不复制原文 |
 | [NOAA Ocean Service：Weather and Climate](https://oceanservice.noaa.gov/facts/weather_climate.html) | 给初学者补充天气与气候的长期统计视角 | 适合作为延伸阅读，不替代课程练习 |
+| [NOAA JetStream：The Atmosphere](https://prod-01-alb-www-noaa.woc.noaa.gov/jetstream/atmosphere) | 核对干空气近似组成、水汽变化和气压背景 | 数字以近似和资料页面的限定条件为准 |
+| [UCAR：What’s in the Air?](https://scied.ucar.edu/learning-zone/air-quality/whats-in-the-air) | 解释水汽、气溶胶和微量气体为什么不能完全忽略 | 采用概念和原始链接，不复用其图件 |
+| [UCAR：Layers of Earth’s Atmosphere](https://scied.ucar.edu/learning-zone/atmosphere/layers-earths-atmosphere) | 核对对流层、平流层等层次的入门特征 | 高度范围保留“约”和纬度/季节差异 |
+| [UCAR：Change in the Atmosphere with Altitude](https://scied.ucar.edu/learning-zone/atmosphere/change-atmosphere-altitude) | 解释气压、密度和温度随高度的变化 | 用于概念校验，不把示意剖面当作实测数据 |
+| [UCAR：Exploring the Atmosphere with Weather Balloons](https://scied.ucar.edu/learning-zone/atmosphere/weather-balloons) | 将垂直结构连接到探空观测和气球膨胀现象 | 作为第二课的现象入口 |
 | [ECMWF training](https://github.com/stewartchrisecmwf/training) | 进入气候、再分析资料和 Jupyter Notebook 实践 | 先从课程导航进入，不默认读者已有数据基础 |
 | [MetPy](https://github.com/Unidata/MetPy) | 后续用 Python 读取、计算和可视化气象变量 | 它是工具库，不是从零开始的气象学教材；以仓库当前许可证为准 |
 | [NMC-WFT/nmcdev](https://github.com/nmcdev) | 了解中国气象业务中的资料、绘图、雷达和检验工具 | 先说明数据和业务背景，再决定是否引入具体模块 |
